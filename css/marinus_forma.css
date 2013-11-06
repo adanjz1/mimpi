@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.texto {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10pt;
+}
+.blanco {
+	color:#FFF;
+}
+.bold {
+	font-weight:bold;
+}
+.input {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:10pt;
+	background-color:#ebebeb;
+	border:none;
+	color:#000;
+	width:144px;
+	height:18px;
+	margin:0;
+	padding:2px;
+}
+#caja_botones {
+	height:20px;
+	margin-right:20px;
+	float:left;
+}
+#boton {
+	margin:0px 3px 0px 3px;
+	float:left;
+}
+#texto {
+	padding-top:3px;
+	float:left;
+	clear:right;
+}
+.botonEnviar {
+	width:52px;
+	height:18px;
+	border: none;
+	cursor:pointer;
+	background:url(../images/btn_enviar.jpg) no-repeat top left;
+}

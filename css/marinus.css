@@ -1,0 +1,375 @@
+@charset "utf-8";
+* {
+	margin:0;
+	/*font-family:Tahoma, Geneva, sans-serif;*/
+}
+body {
+	/*font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 900;
+	font-size:24px;
+	background:#727272;*/
+	background:url(../imagenes/bg.jpg);
+}
+#contenedor {
+	width:1009px;
+	height:728px;
+	margin:0 auto;
+	background:#727272;
+}
+#contenidos {
+	width:969px;
+	height:680px;
+	margin: 0px 20px 20px 20px;
+	background:#727272;
+}
+#gris{
+	width:1009px;
+	height:20px;
+	background:#727272;
+}
+#footer{
+	width:969px;
+	height:21px;
+	background:#FFF;
+	filter: alpha(opacity=75);
+	opacity:0.75;
+
+	padding:8px 20px 0 20px;
+}
+.float{ float:left;}
+.floatRight{ float:right;}
+.clear{ clear:right;}
+/* Colores */
+.negro{ color:#000;}
+.blanco{ color:#FFF;}
+/* Tamaños */
+.f11{ font-size:11px;}
+.f12{ font-size:12px;}
+.f13{ font-size:13px;}
+.f14{ font-size:14px;}
+.f15{ font-size:15px;}
+.f20{ font-size:20px;}
+.f24{ font-size:24px;}
+.f29{ font-size:29px;}
+
+.negrillasMenu{
+	font-weight:800;
+}
+.delgada{
+	font-weight:lighter;
+}
+/* alineaciones */
+.centrado{ text-align:center;}
+.derecha { text-align:right;}
+/* Tipografias */
+.Corbel {font-family: Corbel;}
+.AvantGarde {font-family: "Avant Garde";}
+.Tahoma {font-family: Tahoma, Geneva, sans-serif;}
+.Helvetica {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;}
+/*.Helvetica {font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;}*/
+.Arial {font-family:Arial;}
+.Century {font-family:"Century Gothic";}
+
+/* inicio */
+#Logo{
+	width:234px;
+	height:70px;
+}
+
+#LogoMenu{
+	width:234px;
+	height:120px;
+}
+
+
+.division{
+	width:234px;
+	height:47px;
+	background:url(../imagenes/hojasup.png) no-repeat;
+}
+.divisionInf{
+	width:234px;
+	height:47px;
+	background:url(../imagenes/hojainf.png) no-repeat;
+}
+.banners{
+	padding:10px;
+}
+
+.contenedorMenu{
+	width:234px;
+	height:682px;
+	text-align:center;
+	margin-left:24px;
+	z-index:20;
+	float:left;
+}
+#contenedorHome{
+	width:969px;
+	height:85px;
+}
+#contenedorMenuSolo{
+	width:234px;
+	/*height:682px;*/
+	text-align:center;
+	margin-left:24px;
+	z-index:20;
+	float:left;
+}
+#contenedorMenuSoloIconos{
+	width:690px;
+	margin-top:20px;
+	/*height:61px;
+	background:#727272;
+	filter: alpha(opacity=89);*/
+	text-align:right;
+	float:left;
+	clear:right;
+}
+
+.menuOff{
+	margin:20px 15px;
+}
+.menuOn{
+	margin:20px 15px;
+	background:#fff;
+	filter:alpha(opacity=10);
+	opacity: 0.10;
+}
+#fotoHome{
+	width:899px;
+	height:486px;
+	margin:20px 0 0 15px;
+	padding:10px 20px;
+	background:#336799;
+}
+#botonEntrar{
+	width:100%;
+	height:100%;
+	text-align:center;
+	margin-top:13px;
+}
+
+.contenedorSucursales{
+	width:255px;
+	height:auto;
+	background:#fff;
+	/*filter: alpha(opacity=89);*/
+	text-align:justify;
+	opacity: 0.70;
+	margin-left:24px;
+	z-index:15;
+	top:158px;
+	left: 385px;
+	position:absolute;
+}
+.contenedorTextos{
+	width:305px;
+	height:680px;
+	text-align:justify;
+	margin-left:24px;
+	z-index:15;
+	top:20px;
+	float:left;
+	clear:right;
+	/*left:410px;
+	position:absolute;*/
+}
+.contenedorTextosRegistro{
+	width:640px;
+	height:680px;
+	background:#fff;
+	filter: alpha(opacity=70);
+	text-align:justify;
+	opacity:0.70;
+	margin-left:24px;
+	z-index:15;
+	top:20px;
+	float:left;
+	clear:right;
+	/*left:410px;
+	position:absolute;*/
+}
+#texto{
+	margin:20px;
+}
+#texto2 {
+	padding-top:3px;
+	float:left;
+	clear:right;
+}
+input{
+	min-width:20px;
+	max-width:265px;
+	border-color:#b5b5b5;
+	border-style:solid;
+	border-width:thin;
+	margin:8px 0;
+}
+
+textarea{
+	width:265px;
+	border-color:#b5b5b5;
+	border-style:solid;
+	border-width:thin;
+	margin:8px 0;
+}
+.botonEnviar{
+	width:80px;
+	height:23px;
+	background:url(../imagenes/enviar.jpg) no-repeat;
+	border:none;
+	float:left;
+}
+.botonEnviarReg{
+	width:86px;
+	height:29px;
+	background:url(../imagenes/enviar.jpg) no-repeat;
+	border:solid;
+	border-width:3px;
+	border-color:#608ec9;
+	float:left;
+	filter: alpha(opacity=100);
+}
+.caja{
+	width:300px;
+	text-align:left;
+}
+.float{
+	float:left;
+}
+.clear{
+	clear:rigth;
+}
+#boton {
+	width:20px;
+	margin:0px 3px 0px 3px;
+	float:left;
+}
+hr{
+	margin:10px;
+}
+.registro{
+	width:919px;
+	padding:30px;
+	text-align:right;
+}
+.botonesColecciones{
+	width:970px;
+	height:41px;
+	text-align:left;
+	margin-bottom:15px;
+}
+.contenedorFotos{
+	width:900px;
+	height:auto;
+	margin-left:70px;
+}
+.img{
+	margin:5px 3px;
+}
+#Producto {
+	width:1020px;
+	height:640px;
+	background:#585858;
+}
+#Header {
+	width:1020px;
+	height:30px;
+	clear:both;
+}
+#Cerrar {
+	width:30px;
+	height:30px;
+	float:right;
+	margin-right:20px;
+}
+#PrecioTalle {
+	width:100px;
+	height:577px;
+	float:left;
+	padding: 150px,0px,0px,0px;
+}
+#Precio {
+	width:95px;
+	height:95px;
+	background:#5C2E91;
+	margin-top:150px;
+	float:right;
+}
+#Talle {
+	width:95px;
+	height:95px;
+	background:#336799;
+	margin-top:50px;
+	float:right;
+}
+#FotoProducto {
+	width:820px;
+	height:577px;
+	float:left;
+}
+#ContPaleta {
+	width:100px;
+	height:577px;
+	float:right;
+	padding: 110px,0px,0px,0px;
+}
+#Paleta {
+	width:95px;
+	height:auto;
+	background:#CC3467;
+	margin-top:110px;
+	float:left;
+}
+#FooterFoto {
+	width:1020px;
+	height:30px;
+	clear:both;
+	margin-top:2px;
+}
+#Anterior {
+	float:left;
+	width:100px;
+	height:24px;
+}
+#Descripcion {
+	width:590px;
+	height:30px;
+	float:left;
+	background:#A6CE3A;
+	margin-left:110px;
+	border:3px solid black;
+}
+#Siguiente {
+	float:right;
+	width:100px;
+	height:24px;
+}
+/* CSS Document 
+body,td,th {
+	color: #FFFFFF;
+}
+
+#registro {
+	padding:4px 35px 4px 0px;
+	text-align:right;
+}
+
+a:link {
+	text-decoration: none;
+	color: #333333;
+}
+a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+a:hover {
+	text-decoration: none;
+	color: #333333;
+}
+a:active {
+	text-decoration: none;
+	color: #333333;
+}
+*/
